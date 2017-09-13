@@ -13,7 +13,7 @@ namespace задание11
             int n,cases;
             bool ok=false;
             Console.WriteLine("Введите выражение, состоящее из 0 и 1");
-            string s = Console.ReadLine();//ввод шифруемого выражения
+            string s = Console.ReadLine();//ввод шифруемого выраженiя
             Proverka("выражение",ref s);
             char[] array = s.ToCharArray();//представление выр-ия в виде массива
             int[] a = new int[array.Length];//массив для выражения
